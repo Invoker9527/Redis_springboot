@@ -37,7 +37,7 @@ public class RedisTestController {
             redisTemplate.delete("lock");
 
         } else {
-                //3获取锁失败，每隔0。1秒再获取
+            //3获取锁失败，每隔0。1秒再获取
             try {
                 Thread.sleep(100);
                 testLock();

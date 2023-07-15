@@ -23,7 +23,7 @@ public class ParameterController {
 
     @ResponseBody
     @GetMapping("/car/{id}/owner/{username}")
-    public Map<String, Object> getCar(@PathVariable("id") Integer id, @PathVariable("username") String username, @PathVariable Map<String, String> pv, @RequestHeader("User-Agent") String userAgent, @RequestHeader Map<String, String> heads, @CookieValue("_ga") Cookie cookie,@CookieValue("_ga")String _ga) {
+    public Map<String, Object> getCar(@PathVariable("id") Integer id, @PathVariable("username") String username, @PathVariable Map<String, String> pv, @RequestHeader("User-Agent") String userAgent, @RequestHeader Map<String, String> heads, @CookieValue("_ga") Cookie cookie, @CookieValue("_ga") String _ga) {
         Map<String, Object> map = new HashMap<>();
         map.put("id", id);
 

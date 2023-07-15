@@ -9,9 +9,9 @@ import com.sun.org.apache.bcel.internal.generic.NEW;
  * @description:
  */
 public enum People {
-    man("男","穿衣服"),
+    man("男", "穿衣服"),
 
-    woman("女","穿裙子");
+    woman("女", "穿裙子");
 
     private final String sex;
     private final String hobby;

@@ -9,7 +9,7 @@ class RedisSpringbootApplicationTests {
     @Test
     void contextLoads() {
 
-        float c= (float) (0.5+0.4);
+        float c = (float) (0.5 + 0.4);
         System.out.println(c);
     }
 
